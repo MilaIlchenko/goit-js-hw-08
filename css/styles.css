@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+}
+
+.gallery {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 24px;
+  }
+  
+  .gallery-item {
+    width: calc(33.33% - 20px); 
+  }
+  
+  .gallery-item img {
+    width: 100%; }
+
+ .gallery-image:hover {
+      transform: scale(1.1);
+    }
+    
